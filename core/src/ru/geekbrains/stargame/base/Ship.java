@@ -69,6 +69,9 @@ public class Ship extends Sprite {
         super.destroy();
         boom();
     }
+    public void setBulletPos(Vector2 bulletPos) {
+        this.bulletPos.set(bulletPos);
+    }
 
     public int getDamage() {
         return damage;
