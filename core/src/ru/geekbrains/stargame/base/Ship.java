@@ -69,6 +69,12 @@ public class Ship extends Sprite {
         super.destroy();
         boom();
     }
+    public int getHp() {
+        return hp;
+    }
+    public Vector2 getV() {
+        return v;
+    }
     public void setBulletPos(Vector2 bulletPos) {
         this.bulletPos.set(bulletPos);
     }
